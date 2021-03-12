@@ -12,6 +12,19 @@ export const getPacientes = async (req, res) => {
   }
 };
 
+//Controlador para obtener un paciente de la base de datos
+export const getSinglePaciente = async (req, res) => {
+  const { id } = req.params;
+  if (!mongoose.Types.ObjectId.isValid(id))
+    return res.status(404).send("No existe ningun paciente con ese id");
+  try {
+    const paciente = await Paciente.findById(id);
+    res.status(200).json(paciente);
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+};
+
 //Controlador para crear un nuevo paciente
 //Se requiere en el  body el objeto JSON con los datos
 export const createPaciente = async (req, res) => {

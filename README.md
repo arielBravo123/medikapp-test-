@@ -4,16 +4,23 @@ Backend con Node - Express y MongoDB para el manejo de pacientes con una API res
 
 # Demo
 
-👉 Puedes revisar la demo <a href="https://eiteck-prueba-frontend.netlify.app/">aquí</a>.
+👉 Puedes revisar la demo <a href="https://medik-app-test.herokuapp.com/">aquí</a>.
 <br>
 
-# Requisitos
+## Acerca de la API
+
+# Como usar la API
+
+# Instrucciones de uso Localmente
+
+### Requisitos
 
 - Node Js
+- Cuenta Atlas MongoDB
 
-# Instrucciones de uso Localmnte
+### Proceso
 
-- Descargar la carpeta
+- Descargar la carpeta de este repositorio
 - Descomprimir
 - Ejecutar dentro de la carpeta
 
@@ -22,7 +29,7 @@ $ npm install
 ```
 
 - Crear un archivo llamado .env en la carpeta
-- Agregar credenciales como el ejemplo provisto en el arhivo .env.example
+- Agregar credenciales como el ejemplo provisto en el archivo .env.example
 
 ### Obtener credenciales de Mongodb Atlas
 
@@ -40,19 +47,9 @@ $ npm start
 
 ## Desarrollado con
 
-- [React](https://es.reactjs.org/)
-- [React-Icons](https://react-icons.github.io/react-icons)
-- [Axios](https://github.com/axios/axios)
-- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
-
-#### Estilos
-
-- [StyledComponents](https://styled-components.com/)
-- CSS
-
-## Arquitectura usada
-
--Redux
+- [Node JS](https://es.reactjs.org/)
+- [Express](https://react-icons.github.io/react-icons)
+- [Mongo DB Atlas](https://github.com/axios/axios)
 
 ## Deploy realizado con
 
