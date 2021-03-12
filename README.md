@@ -84,7 +84,7 @@ https://medik-app-test.herokuapp.com/pacientes/id
 
 # ![Obtener todos los pacientes](images/actualizarPaciente.png)
 
-# Instrucciones de uso Localmente
+# Configuración de la aplicación Localmente
 
 ### Requisitos
 
@@ -127,3 +127,8 @@ $ npm start
 ## Deploy realizado con
 
 - [Heroku](https://www.heroku.com/)
+
+# Futuras mejoras y recomendaciones
+
+- Validar valores nulos al momento de acualizar o agregar un nuevo paciente.
+- Agregar una tabla llamada Doctores para manejar las relaciones y claves principales y foraneas dentro de las tablas
